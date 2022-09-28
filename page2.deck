@@ -1,0 +1,8 @@
+[[keys]]
+  index = 10
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/Left-2.gif"
+  [keys.action]
+    deck = 'page1.deck'

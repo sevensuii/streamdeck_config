@@ -1,0 +1,49 @@
+[[keys]]
+  index = 2
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = 'icons/Lock.gif'
+
+[[keys]]
+  index = 6
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/Tick.gif"
+  [keys.action]
+    exec = 'shutdown 0'
+
+[[keys]]
+  index = 7
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/App-Power-On.png"
+
+[[keys]]
+  index = 8
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/Stop-2.gif"
+  [keys.action]
+    deck = 'page1.deck'
+
+[[keys]]
+  index = 12
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = 'icons/Go-Back.gif'
+  [keys.action]
+    exec = 'reboot'
+
+[[keys]]
+  index = 14
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = 'icons/Sign_out_1_1.gif'
+  [keys.action]
+    exec = 'loginctl kill-user sevensuii'

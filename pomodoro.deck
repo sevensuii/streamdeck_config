@@ -1,0 +1,132 @@
+[[keys]]
+  index = 0
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/Return-Arrow.gif"
+  [keys.action]
+    deck = 'page1.deck'
+
+##############
+# Pomodoro   #
+##############
+
+[[keys]]
+  index = 1
+  [keys.widget]
+    id='button'
+    [keys.widget.config]
+      icon = 'icons/Timer-2_Red.gif'
+
+[[keys]]
+  index = 2
+    [keys.widget]
+      id = 'command'
+      interval = 1000
+      [keys.widget.config]
+        #label = '47:32-W'
+        command = 'python streamdeck_config/programs/pomodoro/app.py pomodoro estado'
+
+[[keys]]
+  index = 3
+  [keys.widget]
+    id='button'
+    [keys.widget.config]
+      icon = 'icons/Play-Pause_Red.gif'
+    [keys.action]
+      exec = 'python streamdeck_config/programs/pomodoro/app.py pomodoro play-pause'
+
+[[keys]]
+  index = 4
+  [keys.widget]
+    id='button'
+    [keys.widget.config]
+      icon = 'icons/Timer-Rewind_Red.gif'
+    [keys.action]
+      exec = 'python streamdeck_config/programs/pomodoro/app.py pomodoro reset'
+
+##############
+# Timer 1    #
+##############
+
+[[keys]]
+  index = 5
+  [keys.widget]
+    id='button'
+    [keys.widget.config]
+      icon = 'icons/Timer-2_Green.gif'
+
+[[keys]]
+  index = 6
+    [keys.widget]
+      id = 'command'
+      interval = 1000
+      [keys.widget.config]
+        #label = '00:00'
+        command = "python streamdeck_config/programs/pomodoro/app.py timer 1 estado"
+
+[[keys]]
+  index = 7
+  [keys.widget]
+    id='button'
+    [keys.widget.config]
+      icon = 'icons/Play-Pause_Green.gif'
+    [keys.action]
+      exec = 'python streamdeck_config/programs/pomodoro/app.py timer 1 play-pause'
+
+[[keys]]
+  index = 8
+  [keys.widget]
+    id='button'
+    [keys.widget.config]
+      icon = 'icons/Timer-Rewind_Green.gif'
+    [keys.action]
+      exec = 'python streamdeck_config/programs/pomodoro/app.py timer 1 reset'
+
+[[keys]]
+  index = 9
+  [keys.widget]
+    id = "time"
+    [keys.widget.config]
+      format = "%H;%i;%s"
+      font = "bold;regular;thin"
+
+
+##############
+# Timer 2    #
+##############
+
+[[keys]]
+  index = 10
+  [keys.widget]
+    id='button'
+    [keys.widget.config]
+      icon = 'icons/Timer-2_Blue.gif'
+
+[[keys]]
+  index = 11
+    [keys.widget]
+      id = 'command'
+      interval = 1000
+      [keys.widget.config]
+        #label = '00:00'
+        command = "python streamdeck_config/programs/pomodoro/app.py timer 2 estado"
+
+
+[[keys]]
+  index = 12
+  [keys.widget]
+    id='button'
+    [keys.widget.config]
+      icon = 'icons/Play-Pause_Blue.gif'
+    [keys.action]
+      exec = 'python streamdeck_config/programs/pomodoro/app.py timer 2 play-pause'
+
+[[keys]]
+  index = 13
+  [keys.widget]
+    id='button'
+    [keys.widget.config]
+      icon = 'icons/Timer-Rewind_Blue.gif'
+    [keys.action]
+      exec = 'python streamdeck_config/programs/pomodoro/app.py timer 2 reset'

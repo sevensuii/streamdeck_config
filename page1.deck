@@ -1,0 +1,146 @@
+[[keys]]
+  index = 0
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/visual-studio-code.png"
+      label = 'HEOS'
+      font = 'regular;bold;regular'
+      fontsize = 7
+      layout = "0x0+72x72;0x0+72x72"
+      flatten = false
+  [keys.action]
+    exec = 'code /home/heos'
+
+[[keys]]
+  index = 1
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/visual-studio-code.png"
+      label = 'DEIMOS'
+      font = 'regular;bold;regular'
+      fontsize = 7
+      layout = "0x0+72x72;0x0+72x72"
+      flatten = false
+  [keys.action]
+    exec = 'code /app/deimos/deimos.code-workspace'
+
+[[keys]]
+  index = 2
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/visual-studio-code.png"
+      label = 'GEA'
+      font = 'regular;bold;regular'
+      fontsize = 7
+      layout = "0x0+72x72;0x0+72x72"
+      flatten = false
+  [keys.action]
+    exec = 'code /app/gea'
+
+[[keys]]
+  index = 3
+  [keys.widget]
+    id = "time"
+    [keys.widget.config]
+      format = "%l;%d;%M"
+      font = "regular;bold;regular"
+
+[[keys]]
+  index = 4
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/power-off.png"
+  [keys.action]
+    deck = 'power_menu.deck'
+
+[[keys]]
+  index = 5
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/Blade_Timer.gif"
+  [keys.action]
+    deck = 'pomodoro.deck'
+
+[[keys]]
+  index = 6
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/sql-developer.png"
+  [keys.action]
+    exec = 'dbeaver'
+
+[[keys]]
+  index = 7
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/postman.png"
+  [keys.action]
+    exec = 'postman'
+
+[[keys]]
+  index = 8
+  [keys.widget]
+    id = "time"
+    [keys.widget.config]
+      format = "%H;%i;%s"
+      font = "bold;regular;thin"
+
+[[keys]]
+  index = 9
+  [keys.widget]
+    id='button'
+    [keys.widget.config]
+      icon = 'icons/pacman.gif'
+
+[[keys]]
+  index = 10
+  [keys.widget]
+    id = "recentWindow"
+    [keys.widget.config]
+      window = 1
+      showTitle = true
+
+[[keys]]
+  index = 11
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = 'icons/80sEmoteChatZenithssbm.gif'
+      showTitle = true
+  [keys.action]
+    exec = '/usr/lib/brave-bin/brave --profile-directory=Default --app-id=hnpfjngllnobngcgfapefoaidbinmjnm'
+
+[[keys]]
+  index = 12
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = 'icons/notion.png'
+      showTitle = true
+  [keys.action]
+    exec = '/usr/lib/brave-bin/brave --profile-directory=Default --app-id=nainhcodaihmjipneiceldhpmkhljcao'
+
+[[keys]]
+  index = 13
+  [keys.widget]
+    id = "command"
+    interval = 1000
+    [keys.widget.config]
+      command = 'streamdeck_config/refresh_programs.sh'
+
+[[keys]]
+  index = 14
+  [keys.widget]
+    id = "button"
+    [keys.widget.config]
+      icon = "icons/Right-2.gif"
+  [keys.action]
+    deck = 'page2.deck'
+
